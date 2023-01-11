@@ -1,5 +1,5 @@
-IMAGE_NAME=jenkins-x
-TAG=latest
+IMAGE_NAME=ghcr.io/mbergo/jenkins-x-docker
+TAG=release
 
 build:
 	docker build -t $(IMAGE_NAME):$(TAG) .
